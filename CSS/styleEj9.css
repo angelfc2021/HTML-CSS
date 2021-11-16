@@ -1,0 +1,50 @@
+/* 9. Para este apartado vamos a crear 2 listas:
+1) Lista con viñetas con aspectos personalizados a elección.
+2) Lista vertical con links a paginas a elección */
+
+ul {
+  list-style: georgian;
+}
+
+ul {
+  list-style: lower-alpha;
+}
+/* 1) Definir la anchura del menú: */
+ul.menu {
+  width: 180px;
+}
+
+/* 2) Eliminar las viñetas automáticas y todos los márgenes y espaciados aplicados por
+defecto: */
+ul.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 80px;
+}
+/* 3) Añadir un borde al menú de navegación y establecer el color de fondo y los bordes de
+cada elemento del menú: */
+
+ul.menu {
+  border: 1px solid #7c7c7c;
+  border-bottom: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 180px;
+}
+ul.menu li {
+  background: #f4f4f4;
+  border-bottom: 1px solid #7c7c7c;
+  border-top: 1px solid #fff;
+}
+
+/* Aplicar estilos a los enlaces: mostrarlos como un elemento de bloque para que ocupen
+todo el espacio de cada <li> del menú, añadir un espacio de relleno y modificar los colores
+y la decoración por defecto: */
+ul.menu li a { 4) 
+  color: rgb(206, 23, 23);
+  display: block;
+  padding: 0.2em 0 0.2em 0.5em;
+  text-decoration: none;
+}
